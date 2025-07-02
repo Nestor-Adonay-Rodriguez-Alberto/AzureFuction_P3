@@ -14,4 +14,11 @@
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.2" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Aplication\DTOs\Models\" />
+    <Folder Include="Aplication\DTOs\Responses\" />
+    <Folder Include="Aplication\Mappers\" />
+    <Folder Include="Aplication\Services\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
 </Project>
